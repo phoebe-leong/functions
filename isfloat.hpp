@@ -1,3 +1,6 @@
+#include <string>
+#pragma once
+
 bool isfloat(std::string string) {
     int amountofnumbers = 0;
     int amountofdecpoints = 0;
