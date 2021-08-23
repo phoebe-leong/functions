@@ -1,4 +1,5 @@
 #include <string>
+#pragma once
 
 bool isnum(std::string string) {
     int amountofnumbers = 0;
