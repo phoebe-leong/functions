@@ -17,7 +17,7 @@ bool isfloat(std::string string) {
             }
         }
     }
-    if (amountofdecpoints == 1 && amountofnumbers == string.size() - 1) {
+    if ((amountofnumbers == string.size() - 1 || amountofnumbers == string.size() - 2 && string[0] == '-') && amountofdecpoints == 1) {
         return true;
     }
     return false;
