@@ -13,7 +13,7 @@ bool isnum(std::string string) {
             }
         }
     }
-    if (amountofnumbers == string.size()) {
+    if (amountofnumbers == string.size() || amountofnumbers == string.size() - 1 && string[0] == '-') {
         return true;
     }
     return false;
