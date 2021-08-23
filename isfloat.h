@@ -1,6 +1,8 @@
+#include <stdbool.h>
+#include <string.h>
 #pragma once
 
-int isfloat(char string[]) {
+bool isfloat(char string[]) {
     int amountofnumbers = 0;
     int amountofedecpoints = 0;
     char numbers[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
@@ -17,7 +19,7 @@ int isfloat(char string[]) {
         }
     }
     if (amountofedecpoints == 1 && amountofnumbers == strlen(string) - 1) {
-        return 0;
+        return true;
     }
-    return 1;
+    return false;
 }
