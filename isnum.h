@@ -1,4 +1,5 @@
 #include <string.h>
+#pragma once
 
 int isnum(char string[]) {
     int amountofnumbers = 0;
