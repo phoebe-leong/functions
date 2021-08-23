@@ -1,3 +1,5 @@
+#pragma once
+
 int isfloat(char string[]) {
     int amountofnumbers = 0;
     int amountofedecpoints = 0;
