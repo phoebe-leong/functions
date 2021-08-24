@@ -16,6 +16,9 @@ bool isfloat(char string[]) {
                 amountofedecpoints++;
                 break;
             }
+            if (amountofnumbers == 2) {
+                return false;
+            }
         }
     }
     if (amountofedecpoints == 1 && amountofnumbers == strlen(string) - 1) {
