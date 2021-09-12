@@ -1,2 +1,2 @@
 # functions
-Useful C/C++ functions
+Useful C/++ functions
