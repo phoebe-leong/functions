@@ -1,6 +1,6 @@
+#pragma once
 #include <stdbool.h>
 #include <string.h>
-#pragma once
 
 bool isfloat(const char string[]) {
     int amountofnumbers = 0;
