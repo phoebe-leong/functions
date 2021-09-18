@@ -1,6 +1,6 @@
+#pragma once
 #include <string.h>
 #include <stdbool.h>
-#pragma once
 
 bool isposnum(char string[]) {
     int amountofnumbers = 0;
